@@ -1,0 +1,18 @@
+#logo{
+    width:25%;
+    height:25%;
+}
+div.carouselHeight{
+    
+}
+div.carouselHeight img{
+    width:100%;  
+    height:30rem;
+}
+.h1ShadowBlack, .navbar-brand{
+    text-shadow:0 0 5px black;
+}
+.h1ShadowWhite{
+    text-shadow:0 0 5px white;
+}
+.nav-link{}
