@@ -1,13 +1,16 @@
+.slideShow{
+  margin:8% 0 0 0;
+}
 #logo{
     width:25%;
-    height:25%;
+    height:20%;
 }
 div.carouselHeight{
     
 }
 div.carouselHeight img{
     width:100%;  
-    height:30rem;
+    height:20rem;
 }
 .h1ShadowBlack, .navbar-brand{
     text-shadow:0 0 5px black;
@@ -15,4 +18,11 @@ div.carouselHeight img{
 .h1ShadowWhite{
     text-shadow:0 0 5px white;
 }
-.nav-link{}
+.fontBrand{  
+  font-size:140%;
+  line-height:30%;
+}
+li a.nav-link{
+  font-size:1.2rem;
+  text-shadow:0 0 2px white;
+}
