@@ -3,7 +3,7 @@
 }
 #logo{
     width:25%;
-    height:20%;
+    height:20%;   
 }
 div.carouselHeight{
     
@@ -13,11 +13,14 @@ div.carouselHeight img{
     height:20rem;
     display:fluid;
 }
-.h1ShadowBlack, .navbar-brand{
+.h1ShadowBlack, .h3ShadowBlack, .navbar-brand{
     text-shadow:0 0 5px black;
 }
 .h1ShadowWhite{
     text-shadow:0 0 5px white;
+}
+.h3ShadowWhite{
+    text-shadow:0 0 10px white;
 }
 .fontBrand{  
   font-size:140%;
@@ -54,4 +57,50 @@ li a.nav-link{
 #beratung, #verfahren, #schlichtung{
     display: none;
     text-align:left;
+}
+#btnEmail{
+  display:none;
+}
+@media screen and (min-width:300px){
+  #sliderMain{    
+    margin-top:38%;
+  }
+  #sliderMain h1{
+    font-size:130%;
+  }
+  #view{
+    margin-top:44%;
+  }
+}
+@media screen and (min-width:350px){
+  #sliderMain{
+    margin-top:26%;
+  }
+  #view{
+    margin-top:41%;
+  }
+}
+@media screen and (min-width:600px){
+  #sliderMain h1{
+    font-size:180%;
+  }
+  #view{
+    margin-top:36%;
+  }
+}
+@media screen and (min-width:700px){
+  #sliderMain h1{
+    font-size:220%;
+  }
+  #view{
+    margin-top:35%;
+  }
+}
+@media screen and (min-width:768px){
+  #sliderMain{    
+    margin-top:8%;
+  }  
+  #view{
+    margin-top:8%;
+  }
 }
